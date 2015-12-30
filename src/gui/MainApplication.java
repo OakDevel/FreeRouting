@@ -20,6 +20,11 @@
  */
 package gui;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
 import board.TestLevel;
 
 /**
@@ -40,7 +45,7 @@ public class MainApplication extends javax.swing.JFrame{
      */
     public static void main(String p_args[])
     {
-        String design_dir_name = null;
+        String design_dir_name = loadLocation();
         
         java.util.Locale current_locale = java.util.Locale.ENGLISH;
 
@@ -102,8 +107,7 @@ public class MainApplication extends javax.swing.JFrame{
     public BoardFrame create_board_frame(DesignFile p_design_file, javax.swing.JTextField p_message_field,
             BoardFrame.Option p_option, boolean p_is_test_version, java.util.Locale p_locale) throws ClassNotFoundException
     {
-        java.util.ResourceBundle resources =
-                java.util.ResourceBundle.getBundle("gui.resources.MainApplication", p_locale);
+        java.util.ResourceBundle resources = java.util.ResourceBundle.getBundle("gui.resources.MainApplication", p_locale);
 
         java.io.InputStream input_stream = p_design_file.get_input_stream();
         if (input_stream == null)
@@ -114,27 +118,20 @@ public class MainApplication extends javax.swing.JFrame{
             }
             return null;
         }
-
-        TestLevel test_level;
-        if (p_is_test_version)
-        {
-            test_level = DEBUG_LEVEL;
-        }
-        else
-        {
-            test_level = TestLevel.RELEASE_VERSION;
-        }
          
         BoardFrame new_frame = null;
         boolean read_ok = false;
         
-		new_frame = new BoardFrame(p_design_file, p_option, test_level, p_locale, !p_is_test_version, this);
+		new_frame = new BoardFrame(p_design_file, p_option, TestLevel.RELEASE_VERSION, p_locale, !p_is_test_version, this);
 		read_ok = new_frame.read(input_stream, p_design_file.is_created_from_text_file(), p_message_field);   		
         
 		if (!read_ok)
         {
             return null;
         }
+		
+		saveLocation(p_design_file.get_Path());
+		
         new_frame.menubar.add_design_dependent_items();
         if (p_design_file.is_created_from_text_file())
         {
@@ -159,8 +156,7 @@ public class MainApplication extends javax.swing.JFrame{
     private final boolean is_test_version = false;
     private final boolean is_webstart = false;
     private final java.util.Locale locale;
-    private static final TestLevel DEBUG_LEVEL = TestLevel.CRITICAL_DEBUGGING_OUTPUT;
-
+   
     private class BoardFrameWindowListener extends java.awt.event.WindowAdapter
     {
 
@@ -182,6 +178,41 @@ public class MainApplication extends javax.swing.JFrame{
         private BoardFrame board_frame;
     }
 
+    private void saveLocation(String location){
+    	this.design_dir_name = location;
+    	
+    	PrintWriter pw = null;
+    	try {
+			pw = new PrintWriter("loc.txt");
+			pw.write(location);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+    	finally{
+    		if(pw != null){
+    			pw.close();
+    		}
+    	}	
+    }
+    
+    private static String loadLocation(){
+    	Scanner io = null;
+    	
+    	try {
+			io = new Scanner(new File("loc.txt"));
+			
+			return io.nextLine();
+			
+		} catch (FileNotFoundException e) {
+			//The file doesnt exist
+		}finally{
+			if(io != null){
+				io.close();
+			}
+		}
+
+    	return null;
+    }
 
     static final String WEB_FILE_BASE_NAME = "http://www.freerouting.net/java/";
     /**

@@ -158,7 +158,13 @@ public class DesignFile
         {
             result = null;
         }
+        
         return result;
+    }
+    
+    public String get_Path(){
+    	
+    	return this.input_file.getParent();
     }
 
     public void save_as_dialog(java.awt.Component p_parent, BoardFrame p_board_frame)
