@@ -18,6 +18,7 @@ package gui;
 
 import interactive.ScreenMessages;
 
+import java.awt.event.ActionEvent;
 import java.io.File;
 
 import datastructures.FileFilter;
@@ -35,8 +36,10 @@ import designformats.specctra.DsnFile;
  * @author  Alfons Wirtz
  */
 
-public class BoardFrame extends javax.swing.JFrame
+public class BoardFrame extends javax.swing.JFrame implements OpenListener
 {
+	private MainApplication main = null;
+	
     public enum Option
     {
         FROM_START_MENU, SINGLE_FRAME, SESSION_FILE, WEBSTART, EXTENDED_TOOL_BAR
@@ -51,18 +54,13 @@ public class BoardFrame extends javax.swing.JFrame
         final gui.DesignFile design_file = gui.DesignFile.get_instance(p_design_file_path_name, false);
         if (design_file == null)
         {
-            WindowMessage.show("designfile not found");
+            WindowMessage.show("design file not found");
             return null;
         }
         gui.BoardFrame board_frame = new gui.BoardFrame(design_file, gui.BoardFrame.Option.SINGLE_FRAME,
                 TestLevel.RELEASE_VERSION, p_observers, p_id_no_generator, p_locale, false);
         
         
-        if (board_frame == null)
-        {
-            WindowMessage.show("board_frame is null");
-            return null;
-        }
         java.io.InputStream input_stream = design_file.get_input_stream();
         boolean read_ok =  board_frame.read(input_stream, true, null);
         if (!read_ok)
@@ -87,11 +85,15 @@ public class BoardFrame extends javax.swing.JFrame
      * Also the warning output depends on p_test_level.
      */
     public BoardFrame(DesignFile p_design, Option p_option, TestLevel p_test_level,
-            java.util.Locale p_locale, boolean p_confirm_cancel)
+            java.util.Locale p_locale, boolean p_confirm_cancel, MainApplication main)
     {
         this(p_design, p_option, p_test_level,
                 new board.BoardObserverAdaptor(), new board.ItemIdNoGenerator(),
                 p_locale, p_confirm_cancel);
+        
+        if(this.main == null){
+        	this.main = main;
+    	}
     }
     
     /**
@@ -801,5 +803,11 @@ public class BoardFrame extends javax.swing.JFrame
         private WindowObjectListWithFilter.SnapshotInfo components_selection;
         private WindowObjectListWithFilter.SnapshotInfo padstacks_selection;
     }
+
+	@Override
+	public void openFile(ActionEvent evt) {
+		// TODO Auto-generated method stub
+		main.open_board_design_action(evt);
+	}
 }
 

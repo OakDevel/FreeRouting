@@ -19,6 +19,8 @@
  */
 package gui;
 
+import java.awt.Frame;
+
 /**
  * Creates the file menu of a board frame.
  *
@@ -26,7 +28,11 @@ package gui;
  */
 public class BoardMenuFile extends javax.swing.JMenu
 {
-
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+			
     /** Returns a new file menu for the board frame. */
     public static BoardMenuFile get_instance(BoardFrame p_board_frame, boolean p_session_file_option)
     {
@@ -35,6 +41,23 @@ public class BoardMenuFile extends javax.swing.JMenu
 
         // Create the menu items.
 
+        if (!p_session_file_option && !p_board_frame.is_web_start)
+        {
+            javax.swing.JMenuItem open_item = new javax.swing.JMenuItem();
+            open_item.setText("Open");
+            open_item.setToolTipText("Open a selected file");
+            open_item.addActionListener(new java.awt.event.ActionListener()
+            {
+
+                public void actionPerformed(java.awt.event.ActionEvent evt)
+                {
+                	p_board_frame.openFile(evt);
+                }
+            });
+
+            file_menu.add(open_item);
+        }
+        
         if (!p_session_file_option && !p_board_frame.is_web_start)
         {
             javax.swing.JMenuItem save_item = new javax.swing.JMenuItem();
@@ -148,9 +171,10 @@ public class BoardMenuFile extends javax.swing.JMenu
 
         return file_menu;
     }
-
+    
     public void add_design_dependent_items()
     {
+    	
         if (this.session_file_option)
         {
             return;
