@@ -41,10 +41,11 @@ import javax.swing.event.TableModelListener;
  *
  * @author  Alfons Wirtz
  */
-public class BoardPanel extends javax.swing.JPanel
-{
-    
-    /** Creates a new BoardPanel in an Application */
+public class BoardPanel extends javax.swing.JPanel{
+
+	private static final long serialVersionUID = 1L;
+
+	/** Creates a new BoardPanel in an Application */
     public BoardPanel(ScreenMessages p_screen_messages, BoardFrame p_board_frame,
             boolean p_is_web_application, java.util.Locale p_locale)
     {

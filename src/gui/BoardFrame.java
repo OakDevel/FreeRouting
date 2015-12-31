@@ -87,8 +87,7 @@ public class BoardFrame extends javax.swing.JFrame implements OpenListener
     public BoardFrame(DesignFile p_design, Option p_option, TestLevel p_test_level,
             java.util.Locale p_locale, boolean p_confirm_cancel, MainApplication main)
     {
-        this(p_design, p_option, p_test_level,
-                new board.BoardObserverAdaptor(), new board.ItemIdNoGenerator(),
+        this(p_design, p_option, p_test_level, new board.BoardObserverAdaptor(), new board.ItemIdNoGenerator(),
                 p_locale, p_confirm_cancel);
         
         if(this.main == null){
@@ -150,6 +149,8 @@ public class BoardFrame extends javax.swing.JFrame implements OpenListener
         
         this.board_panel = new BoardPanel(screen_messages, this, this.is_web_start, p_locale);
         this.scroll_pane.setViewportView(board_panel);
+        
+ 
         
         this.setTitle(resources.getString("title"));
         this.addWindowListener(new WindowStateListener());
@@ -526,7 +527,7 @@ public class BoardFrame extends javax.swing.JFrame implements OpenListener
         this.setLocation(120, 0);
         
         this.select_parameter_window.setLocation(0, 0);
-        this.select_parameter_window.setVisible(true);
+        this.select_parameter_window.setVisible(false);
         
         this.route_parameter_window.setLocation(0, 100);
         this.autoroute_parameter_window.setLocation(0, 200);

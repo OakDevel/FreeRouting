@@ -35,9 +35,8 @@ import board.TestLevel;
  */
 public class MainApplication extends javax.swing.JFrame{
 	
-	/**
-	 * 
-	 */
+	private final static String CONFIGS = "DATA";
+
 	private static final long serialVersionUID = 1L;
 	
 	/**
@@ -183,7 +182,7 @@ public class MainApplication extends javax.swing.JFrame{
     	
     	PrintWriter pw = null;
     	try {
-			pw = new PrintWriter("loc.txt");
+			pw = new PrintWriter(CONFIGS);
 			pw.write(location);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -199,7 +198,7 @@ public class MainApplication extends javax.swing.JFrame{
     	Scanner io = null;
     	
     	try {
-			io = new Scanner(new File("loc.txt"));
+			io = new Scanner(new File(CONFIGS));
 			
 			return io.nextLine();
 			
@@ -214,9 +213,8 @@ public class MainApplication extends javax.swing.JFrame{
     	return null;
     }
 
-    static final String WEB_FILE_BASE_NAME = "http://www.freerouting.net/java/";
     /**
      * Change this string when creating a new version
      */
-    static final String VERSION_NUMBER_STRING = "1.2.43";
+    static final String VERSION_NUMBER_STRING = "Lisbon";
 }
