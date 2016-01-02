@@ -809,6 +809,7 @@ public class BoardFrame extends javax.swing.JFrame implements OpenListener
 	public void openFile(ActionEvent evt) {
 		// TODO Auto-generated method stub
 		main.open_board_design_action(evt);
+		this.dispose();
 	}
 }
 
