@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da75841c-9e17-4cad-997c-6a15a2fd35ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/designformats/specctra/SpecctraFileDescription.flex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/GUIDefaultsDescription.flex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/interactive/LogfileDescription.flex" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/AutorouteControl$ExpansionCostFactor.class" afterPath="$PROJECT_DIR$/bin/autoroute/AutorouteControl$ExpansionCostFactor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/AutorouteControl$ViaCost.class" afterPath="$PROJECT_DIR$/bin/autoroute/AutorouteControl$ViaCost.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/AutorouteControl$ViaMask.class" afterPath="$PROJECT_DIR$/bin/autoroute/AutorouteControl$ViaMask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/AutorouteControl.class" afterPath="$PROJECT_DIR$/bin/autoroute/AutorouteControl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/AutorouteEngine$AutorouteResult.class" afterPath="$PROJECT_DIR$/bin/autoroute/AutorouteEngine$AutorouteResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/AutorouteEngine.class" afterPath="$PROJECT_DIR$/bin/autoroute/AutorouteEngine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/BatchAutorouter.class" afterPath="$PROJECT_DIR$/bin/autoroute/BatchAutorouter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/BatchFanout$Component$Pin.class" afterPath="$PROJECT_DIR$/bin/autoroute/BatchFanout$Component$Pin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/BatchFanout$Component.class" afterPath="$PROJECT_DIR$/bin/autoroute/BatchFanout$Component.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/BatchFanout.class" afterPath="$PROJECT_DIR$/bin/autoroute/BatchFanout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/BatchOptRoute$ReadSortedRouteItems.class" afterPath="$PROJECT_DIR$/bin/autoroute/BatchOptRoute$ReadSortedRouteItems.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/BatchOptRoute.class" afterPath="$PROJECT_DIR$/bin/autoroute/BatchOptRoute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/CompleteExpansionRoom.class" afterPath="$PROJECT_DIR$/bin/autoroute/CompleteExpansionRoom.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/CompleteFreeSpaceExpansionRoom.class" afterPath="$PROJECT_DIR$/bin/autoroute/CompleteFreeSpaceExpansionRoom.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/Connection.class" afterPath="$PROJECT_DIR$/bin/autoroute/Connection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/DestinationDistance.class" afterPath="$PROJECT_DIR$/bin/autoroute/DestinationDistance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/DrillPage.class" afterPath="$PROJECT_DIR$/bin/autoroute/DrillPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/DrillPageArray.class" afterPath="$PROJECT_DIR$/bin/autoroute/DrillPageArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/ExpandableObject.class" afterPath="$PROJECT_DIR$/bin/autoroute/ExpandableObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/ExpansionDoor.class" afterPath="$PROJECT_DIR$/bin/autoroute/ExpansionDoor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/ExpansionDrill.class" afterPath="$PROJECT_DIR$/bin/autoroute/ExpansionDrill.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/ExpansionRoom.class" afterPath="$PROJECT_DIR$/bin/autoroute/ExpansionRoom.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/FreeSpaceExpansionRoom.class" afterPath="$PROJECT_DIR$/bin/autoroute/FreeSpaceExpansionRoom.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/IncompleteFreeSpaceExpansionRoom.class" afterPath="$PROJECT_DIR$/bin/autoroute/IncompleteFreeSpaceExpansionRoom.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/InsertFoundConnectionAlgo.class" afterPath="$PROJECT_DIR$/bin/autoroute/InsertFoundConnectionAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/ItemAutorouteInfo.class" afterPath="$PROJECT_DIR$/bin/autoroute/ItemAutorouteInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgo$BacktrackElement.class" afterPath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgo$BacktrackElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgo$ResultItem.class" afterPath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgo$ResultItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgo.class" afterPath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgo45Degree.class" afterPath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgo45Degree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgoAnyAngle.class" afterPath="$PROJECT_DIR$/bin/autoroute/LocateFoundConnectionAlgoAnyAngle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/MazeListElement.class" afterPath="$PROJECT_DIR$/bin/autoroute/MazeListElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/MazeSearchAlgo$Result.class" afterPath="$PROJECT_DIR$/bin/autoroute/MazeSearchAlgo$Result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/MazeSearchAlgo$ShoveResult.class" afterPath="$PROJECT_DIR$/bin/autoroute/MazeSearchAlgo$ShoveResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/MazeSearchAlgo.class" afterPath="$PROJECT_DIR$/bin/autoroute/MazeSearchAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/MazeSearchElement$Adjustment.class" afterPath="$PROJECT_DIR$/bin/autoroute/MazeSearchElement$Adjustment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/MazeSearchElement.class" afterPath="$PROJECT_DIR$/bin/autoroute/MazeSearchElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/MazeShoveTraceAlgo$DoorSection.class" afterPath="$PROJECT_DIR$/bin/autoroute/MazeShoveTraceAlgo$DoorSection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/MazeShoveTraceAlgo.class" afterPath="$PROJECT_DIR$/bin/autoroute/MazeShoveTraceAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/ObstacleExpansionRoom.class" afterPath="$PROJECT_DIR$/bin/autoroute/ObstacleExpansionRoom.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/Sorted45DegreeRoomNeighbours$SortedRoomNeighbour.class" afterPath="$PROJECT_DIR$/bin/autoroute/Sorted45DegreeRoomNeighbours$SortedRoomNeighbour.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/Sorted45DegreeRoomNeighbours.class" afterPath="$PROJECT_DIR$/bin/autoroute/Sorted45DegreeRoomNeighbours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/SortedOrthogonalRoomNeighbours$SortedRoomNeighbour.class" afterPath="$PROJECT_DIR$/bin/autoroute/SortedOrthogonalRoomNeighbours$SortedRoomNeighbour.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/SortedOrthogonalRoomNeighbours.class" afterPath="$PROJECT_DIR$/bin/autoroute/SortedOrthogonalRoomNeighbours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/SortedRoomNeighbours$SortedRoomNeighbour.class" afterPath="$PROJECT_DIR$/bin/autoroute/SortedRoomNeighbours$SortedRoomNeighbour.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/SortedRoomNeighbours.class" afterPath="$PROJECT_DIR$/bin/autoroute/SortedRoomNeighbours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/autoroute/TargetItemExpansionDoor.class" afterPath="$PROJECT_DIR$/bin/autoroute/TargetItemExpansionDoor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/AngleRestriction.class" afterPath="$PROJECT_DIR$/bin/board/AngleRestriction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/BasicBoard.class" afterPath="$PROJECT_DIR$/bin/board/BasicBoard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/BoardObserverAdaptor.class" afterPath="$PROJECT_DIR$/bin/board/BoardObserverAdaptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/BoardObservers.class" afterPath="$PROJECT_DIR$/bin/board/BoardObservers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/BoardOutline.class" afterPath="$PROJECT_DIR$/bin/board/BoardOutline.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/CalcFromSide.class" afterPath="$PROJECT_DIR$/bin/board/CalcFromSide.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/CalcShapeAndFromSide.class" afterPath="$PROJECT_DIR$/bin/board/CalcShapeAndFromSide.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ChangedArea$MutableOctagon.class" afterPath="$PROJECT_DIR$/bin/board/ChangedArea$MutableOctagon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ChangedArea.class" afterPath="$PROJECT_DIR$/bin/board/ChangedArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ClearanceViolation.class" afterPath="$PROJECT_DIR$/bin/board/ClearanceViolation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Communication$SpecctraParserInfo$WriteResolution.class" afterPath="$PROJECT_DIR$/bin/board/Communication$SpecctraParserInfo$WriteResolution.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Communication$SpecctraParserInfo.class" afterPath="$PROJECT_DIR$/bin/board/Communication$SpecctraParserInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Communication.class" afterPath="$PROJECT_DIR$/bin/board/Communication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Component.class" afterPath="$PROJECT_DIR$/bin/board/Component.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ComponentObstacleArea.class" afterPath="$PROJECT_DIR$/bin/board/ComponentObstacleArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ComponentOutline.class" afterPath="$PROJECT_DIR$/bin/board/ComponentOutline.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Components.class" afterPath="$PROJECT_DIR$/bin/board/Components.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ConductionArea.class" afterPath="$PROJECT_DIR$/bin/board/ConductionArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Connectable.class" afterPath="$PROJECT_DIR$/bin/board/Connectable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/CoordinateTransform.class" afterPath="$PROJECT_DIR$/bin/board/CoordinateTransform.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/DrillItem$TraceInfo.class" afterPath="$PROJECT_DIR$/bin/board/DrillItem$TraceInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/DrillItem.class" afterPath="$PROJECT_DIR$/bin/board/DrillItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/FixedState.class" afterPath="$PROJECT_DIR$/bin/board/FixedState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ForcedPadAlgo$CheckDrillResult.class" afterPath="$PROJECT_DIR$/bin/board/ForcedPadAlgo$CheckDrillResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ForcedPadAlgo.class" afterPath="$PROJECT_DIR$/bin/board/ForcedPadAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ForcedViaAlgo.class" afterPath="$PROJECT_DIR$/bin/board/ForcedViaAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Item$StopConnectionOption.class" afterPath="$PROJECT_DIR$/bin/board/Item$StopConnectionOption.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Item.class" afterPath="$PROJECT_DIR$/bin/board/Item.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ItemIdNoGenerator.class" afterPath="$PROJECT_DIR$/bin/board/ItemIdNoGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ItemSearchTreesInfo$SearchTreeInfo.class" afterPath="$PROJECT_DIR$/bin/board/ItemSearchTreesInfo$SearchTreeInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ItemSearchTreesInfo.class" afterPath="$PROJECT_DIR$/bin/board/ItemSearchTreesInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ItemSelectionFilter$SelectableChoices.class" afterPath="$PROJECT_DIR$/bin/board/ItemSelectionFilter$SelectableChoices.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ItemSelectionFilter.class" afterPath="$PROJECT_DIR$/bin/board/ItemSelectionFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Layer.class" afterPath="$PROJECT_DIR$/bin/board/Layer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/LayerStructure.class" afterPath="$PROJECT_DIR$/bin/board/LayerStructure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/MoveComponent$SortedItem.class" afterPath="$PROJECT_DIR$/bin/board/MoveComponent$SortedItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/MoveComponent.class" afterPath="$PROJECT_DIR$/bin/board/MoveComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/MoveDrillItemAlgo.class" afterPath="$PROJECT_DIR$/bin/board/MoveDrillItemAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ObjectInfoPanel$Printable.class" afterPath="$PROJECT_DIR$/bin/board/ObjectInfoPanel$Printable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ObjectInfoPanel.class" afterPath="$PROJECT_DIR$/bin/board/ObjectInfoPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ObstacleArea.class" afterPath="$PROJECT_DIR$/bin/board/ObstacleArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/OptViaAlgo.class" afterPath="$PROJECT_DIR$/bin/board/OptViaAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Pin$TraceExitRestriction.class" afterPath="$PROJECT_DIR$/bin/board/Pin$TraceExitRestriction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Pin.class" afterPath="$PROJECT_DIR$/bin/board/Pin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/PolylineTrace.class" afterPath="$PROJECT_DIR$/bin/board/PolylineTrace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/PrintableShape$Circle.class" afterPath="$PROJECT_DIR$/bin/board/PrintableShape$Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/PrintableShape$Polygon.class" afterPath="$PROJECT_DIR$/bin/board/PrintableShape$Polygon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/PrintableShape$Rectangle.class" afterPath="$PROJECT_DIR$/bin/board/PrintableShape$Rectangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/PrintableShape.class" afterPath="$PROJECT_DIR$/bin/board/PrintableShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/PullTightAlgo.class" afterPath="$PROJECT_DIR$/bin/board/PullTightAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/PullTightAlgo45.class" afterPath="$PROJECT_DIR$/bin/board/PullTightAlgo45.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/PullTightAlgo90.class" afterPath="$PROJECT_DIR$/bin/board/PullTightAlgo90.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/PullTightAlgoAnyAngle.class" afterPath="$PROJECT_DIR$/bin/board/PullTightAlgoAnyAngle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/RoutingBoard.class" afterPath="$PROJECT_DIR$/bin/board/RoutingBoard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/SearchTreeManager.class" afterPath="$PROJECT_DIR$/bin/board/SearchTreeManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/SearchTreeObject.class" afterPath="$PROJECT_DIR$/bin/board/SearchTreeObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ShapeSearchTree$EntrySortedByClearance.class" afterPath="$PROJECT_DIR$/bin/board/ShapeSearchTree$EntrySortedByClearance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ShapeSearchTree.class" afterPath="$PROJECT_DIR$/bin/board/ShapeSearchTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ShapeSearchTree45Degree.class" afterPath="$PROJECT_DIR$/bin/board/ShapeSearchTree45Degree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ShapeSearchTree90Degree.class" afterPath="$PROJECT_DIR$/bin/board/ShapeSearchTree90Degree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ShapeTraceEntries$EntryPoint.class" afterPath="$PROJECT_DIR$/bin/board/ShapeTraceEntries$EntryPoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ShapeTraceEntries.class" afterPath="$PROJECT_DIR$/bin/board/ShapeTraceEntries.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ShoveTraceAlgo.class" afterPath="$PROJECT_DIR$/bin/board/ShoveTraceAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/TestLevel.class" afterPath="$PROJECT_DIR$/bin/board/TestLevel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Trace.class" afterPath="$PROJECT_DIR$/bin/board/Trace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Unit$1.class" afterPath="$PROJECT_DIR$/bin/board/Unit$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Unit$2.class" afterPath="$PROJECT_DIR$/bin/board/Unit$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Unit$3.class" afterPath="$PROJECT_DIR$/bin/board/Unit$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Unit$4.class" afterPath="$PROJECT_DIR$/bin/board/Unit$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Unit.class" afterPath="$PROJECT_DIR$/bin/board/Unit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/Via.class" afterPath="$PROJECT_DIR$/bin/board/Via.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/board/ViaObstacleArea.class" afterPath="$PROJECT_DIR$/bin/board/ViaObstacleArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/ColorIntensityTable$ObjectNames.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/ColorIntensityTable$ObjectNames.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/ColorIntensityTable.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/ColorIntensityTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/ColorTableModel.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/ColorTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/CoordinateTransform.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/CoordinateTransform.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/Drawable.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/Drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/GraphicsContext.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/GraphicsContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/ItemColorTableModel$ColumnNames.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/ItemColorTableModel$ColumnNames.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/ItemColorTableModel.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/ItemColorTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/ItemDrawInfo.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/ItemDrawInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/OtherColorTableModel$ColumnNames.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/OtherColorTableModel$ColumnNames.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/boardgraphics/OtherColorTableModel.class" afterPath="$PROJECT_DIR$/bin/boardgraphics/OtherColorTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/ArrayStack.class" afterPath="$PROJECT_DIR$/bin/datastructures/ArrayStack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/BigIntAux.class" afterPath="$PROJECT_DIR$/bin/datastructures/BigIntAux.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/FileFilter.class" afterPath="$PROJECT_DIR$/bin/datastructures/FileFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/IdNoGenerator.class" afterPath="$PROJECT_DIR$/bin/datastructures/IdNoGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/IdentifierType.class" afterPath="$PROJECT_DIR$/bin/datastructures/IdentifierType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/IndentFileWriter.class" afterPath="$PROJECT_DIR$/bin/datastructures/IndentFileWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/MinAreaTree.class" afterPath="$PROJECT_DIR$/bin/datastructures/MinAreaTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/Observers.class" afterPath="$PROJECT_DIR$/bin/datastructures/Observers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$Corner.class" afterPath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$Corner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$Edge.class" afterPath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$Edge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$ResultEdge.class" afterPath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$ResultEdge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$Storable.class" afterPath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$Storable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$Triangle.class" afterPath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$Triangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$TriangleGraph.class" afterPath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation$TriangleGraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation.class" afterPath="$PROJECT_DIR$/bin/datastructures/PlanarDelaunayTriangulation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/ShapeTree$InnerNode.class" afterPath="$PROJECT_DIR$/bin/datastructures/ShapeTree$InnerNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/ShapeTree$Leaf.class" afterPath="$PROJECT_DIR$/bin/datastructures/ShapeTree$Leaf.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/ShapeTree$Storable.class" afterPath="$PROJECT_DIR$/bin/datastructures/ShapeTree$Storable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/ShapeTree$TreeEntry.class" afterPath="$PROJECT_DIR$/bin/datastructures/ShapeTree$TreeEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/ShapeTree$TreeNode.class" afterPath="$PROJECT_DIR$/bin/datastructures/ShapeTree$TreeNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/ShapeTree.class" afterPath="$PROJECT_DIR$/bin/datastructures/ShapeTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/Signum.class" afterPath="$PROJECT_DIR$/bin/datastructures/Signum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/Stoppable.class" afterPath="$PROJECT_DIR$/bin/datastructures/Stoppable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/TimeLimit.class" afterPath="$PROJECT_DIR$/bin/datastructures/TimeLimit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/UndoableObjects$Storable.class" afterPath="$PROJECT_DIR$/bin/datastructures/UndoableObjects$Storable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/UndoableObjects$UndoableObjectNode.class" afterPath="$PROJECT_DIR$/bin/datastructures/UndoableObjects$UndoableObjectNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/datastructures/UndoableObjects.class" afterPath="$PROJECT_DIR$/bin/datastructures/UndoableObjects.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/AutorouteSettings.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/AutorouteSettings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Circle.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Circuit$LengthMatchingRule.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Circuit$LengthMatchingRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Circuit$ReadScopeResult.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Circuit$ReadScopeResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Circuit.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Circuit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Component.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Component.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/ComponentPlacement$ComponentLocation.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/ComponentPlacement$ComponentLocation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/ComponentPlacement$ItemClearanceInfo.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/ComponentPlacement$ItemClearanceInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/ComponentPlacement.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/ComponentPlacement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/CoordinateTransform.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/CoordinateTransform.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/DsnFile$ReadResult.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/DsnFile$ReadResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/DsnFile.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/DsnFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Keyword.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Keyword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Layer.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Layer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/LayerStructure.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/LayerStructure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Library.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Library.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Net$Id.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Net$Id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Net$Pin.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Net$Pin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Net.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Net.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/NetClass$ClassClass.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/NetClass$ClassClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/NetClass.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/NetClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/NetList.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/NetList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Network.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Network.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Package$PinInfo.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Package$PinInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Package.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Package.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Parser.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Parser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/PartLibrary$LogicalPart.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/PartLibrary$LogicalPart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/PartLibrary$LogicalPartMapping.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/PartLibrary$LogicalPartMapping.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/PartLibrary$PartPin.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/PartLibrary$PartPin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/PartLibrary.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/PartLibrary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Path.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Path.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/PlaceControl.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/PlaceControl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Placement.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Placement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Plane.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Plane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Polygon.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Polygon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/PolygonPath.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/PolygonPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/PolylinePath.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/PolylinePath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/ReadScopeParameter$PlaneInfo.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/ReadScopeParameter$PlaneInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/ReadScopeParameter.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/ReadScopeParameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Rectangle.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Rectangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Resolution.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Resolution.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Rule$ClearanceRule.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Rule$ClearanceRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Rule$LayerRule.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Rule$LayerRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Rule$WidthRule.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Rule$WidthRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Rule.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Rule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/RulesFile.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/RulesFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Scanner.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Scanner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/ScopeKeyword.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/ScopeKeyword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/SessionFile.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/SessionFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/SessionToEagle$PinInfo.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/SessionToEagle$PinInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/SessionToEagle.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/SessionToEagle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Shape$ReadAreaScopeResult.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Shape$ReadAreaScopeResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Shape.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Shape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/SpecctraFileScanner.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/SpecctraFileScanner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Structure$BoardConstructionInfo.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Structure$BoardConstructionInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Structure$KeepoutType.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Structure$KeepoutType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Structure$LayerRule.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Structure$LayerRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Structure$OutlineShape.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Structure$OutlineShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Structure.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Structure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/Wiring.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/Wiring.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/designformats/specctra/WriteScopeParameter.class" afterPath="$PROJECT_DIR$/bin/designformats/specctra/WriteScopeParameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Area.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Area.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/BigIntDirection.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/BigIntDirection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Circle.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/ConvexShape.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/ConvexShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Direction.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Direction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Ellipse.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Ellipse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FloatLine.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FloatLine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FloatPoint.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FloatPoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeBoundingDirections.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeBoundingDirections.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$1.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$2.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$3.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$4.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$5.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$6.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$7.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$8.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/FortyfiveDegreeDirection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/IntBox.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/IntBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/IntDirection.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/IntDirection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/IntOctagon.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/IntOctagon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/IntPoint.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/IntPoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/IntVector.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/IntVector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Limits.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Limits.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Line.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Line.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/LineSegment.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/LineSegment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/OrthogonalBoundingDirections.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/OrthogonalBoundingDirections.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Point.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Point.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Polygon.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Polygon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/PolygonShape$DivisionPoint.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/PolygonShape$DivisionPoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/PolygonShape.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/PolygonShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Polyline.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Polyline.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/PolylineArea.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/PolylineArea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/PolylineShape.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/PolylineShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/RationalPoint.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/RationalPoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/RationalVector.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/RationalVector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/RegularTileShape.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/RegularTileShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Shape.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Shape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/ShapeBoundingDirections.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/ShapeBoundingDirections.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Side.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Side.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Simplex.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Simplex.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/TileShape.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/TileShape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/geometry/planar/Vector.class" afterPath="$PROJECT_DIR$/bin/geometry/planar/Vector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardFrame$Option.class" afterPath="$PROJECT_DIR$/bin/gui/BoardFrame$Option.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardFrame$SubwindowSelections.class" afterPath="$PROJECT_DIR$/bin/gui/BoardFrame$SubwindowSelections.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardFrame$WindowStateListener.class" afterPath="$PROJECT_DIR$/bin/gui/BoardFrame$WindowStateListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardFrame.class" afterPath="$PROJECT_DIR$/bin/gui/BoardFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuBar.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay$2.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay$3.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay$4.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuDisplay.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile$2.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile$3.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile$4.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile$5.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile$6.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile$7.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile$8.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile$9.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuFile.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuHelp.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuHelp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuHelpReduced$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuHelpReduced$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuHelpReduced.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuHelpReduced.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$2.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$3.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$4.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$5.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$6.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$7.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$8.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuInfo$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuInfo.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuOther$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuOther$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuOther.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuOther.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuParameter$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuParameter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuParameter$2.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuParameter$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuParameter$3.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuParameter$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuParameter$4.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuParameter$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuParameter.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuParameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuRules$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuRules$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuRules$2.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuRules$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuRules$3.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuRules$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuRules$4.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuRules$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardMenuRules.class" afterPath="$PROJECT_DIR$/bin/gui/BoardMenuRules.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardPanel$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardPanel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardPanel$2.class" afterPath="$PROJECT_DIR$/bin/gui/BoardPanel$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardPanel$3.class" afterPath="$PROJECT_DIR$/bin/gui/BoardPanel$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardPanel$4.class" afterPath="$PROJECT_DIR$/bin/gui/BoardPanel$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardPanel$ColorTableListener.class" afterPath="$PROJECT_DIR$/bin/gui/BoardPanel$ColorTableListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardPanel.class" afterPath="$PROJECT_DIR$/bin/gui/BoardPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardPanelStatus.class" afterPath="$PROJECT_DIR$/bin/gui/BoardPanelStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardSavableSubWindow$SavedAttributes.class" afterPath="$PROJECT_DIR$/bin/gui/BoardSavableSubWindow$SavedAttributes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardSavableSubWindow.class" afterPath="$PROJECT_DIR$/bin/gui/BoardSavableSubWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardSubWindow.class" afterPath="$PROJECT_DIR$/bin/gui/BoardSubWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardTemporarySubWindow$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardTemporarySubWindow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardTemporarySubWindow.class" afterPath="$PROJECT_DIR$/bin/gui/BoardTemporarySubWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$10.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$11.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$12.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$2.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$3.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$4.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$5.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$6.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$7.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$8.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar$9.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbar.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$1.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$10.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$11.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$12.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$13.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$14.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$15.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$16.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$17.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$18.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$19.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$2.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$20.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$3.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$4.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$5.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$6.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$7.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$8.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$9.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem.class" afterPath="$PROJECT_DIR$/bin/gui/BoardToolbarSelectedItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ColorManager$1.class" afterPath="$PROJECT_DIR$/bin/gui/ColorManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ColorManager$2.class" afterPath="$PROJECT_DIR$/bin/gui/ColorManager$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ColorManager$3.class" afterPath="$PROJECT_DIR$/bin/gui/ColorManager$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ColorManager$ColorEditor$1.class" afterPath="$PROJECT_DIR$/bin/gui/ColorManager$ColorEditor$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ColorManager$ColorEditor.class" afterPath="$PROJECT_DIR$/bin/gui/ColorManager$ColorEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ColorManager$ColorRenderer.class" afterPath="$PROJECT_DIR$/bin/gui/ColorManager$ColorRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ColorManager.class" afterPath="$PROJECT_DIR$/bin/gui/ColorManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ComboBoxClearance$ClearanceClass.class" afterPath="$PROJECT_DIR$/bin/gui/ComboBoxClearance$ClearanceClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ComboBoxClearance.class" afterPath="$PROJECT_DIR$/bin/gui/ComboBoxClearance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ComboBoxLayer$Layer.class" afterPath="$PROJECT_DIR$/bin/gui/ComboBoxLayer$Layer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/ComboBoxLayer.class" afterPath="$PROJECT_DIR$/bin/gui/ComboBoxLayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/Cursor$FortyfiveDegreeCrossHairCursor.class" afterPath="$PROJECT_DIR$/bin/gui/Cursor$FortyfiveDegreeCrossHairCursor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/Cursor.class" afterPath="$PROJECT_DIR$/bin/gui/Cursor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/DesignFile.class" afterPath="$PROJECT_DIR$/bin/gui/DesignFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/GUIDefaultsFile$Keyword.class" afterPath="$PROJECT_DIR$/bin/gui/GUIDefaultsFile$Keyword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/GUIDefaultsFile.class" afterPath="$PROJECT_DIR$/bin/gui/GUIDefaultsFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/GUIDefaultsScanner.class" afterPath="$PROJECT_DIR$/bin/gui/GUIDefaultsScanner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/MainApplication$BoardFrameWindowListener.class" afterPath="$PROJECT_DIR$/bin/gui/MainApplication$BoardFrameWindowListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/MainApplication.class" afterPath="$PROJECT_DIR$/bin/gui/MainApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuChangeLayer$LayermenuItem$1.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuChangeLayer$LayermenuItem$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuChangeLayer$LayermenuItem.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuChangeLayer$LayermenuItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuChangeLayer.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuChangeLayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuCopy$1.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuCopy$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuCopy$2.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuCopy$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuCopy.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuCopy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuDisplay$1.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuDisplay$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuDisplay$2.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuDisplay$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuDisplay$3.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuDisplay$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuDisplay.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuDisplay.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuDynamicRoute$1.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuDynamicRoute$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuDynamicRoute$2.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuDynamicRoute$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuDynamicRoute$3.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuDynamicRoute$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuDynamicRoute.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuDynamicRoute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuInsertCancel$1.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuInsertCancel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuInsertCancel$2.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuInsertCancel$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuInsertCancel.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuInsertCancel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMain$1.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMain$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMain$2.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMain$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMain$3.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMain$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMain$4.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMain$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMain$5.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMain$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMain$6.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMain$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMain$7.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMain$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMain.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$1.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$10.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$11.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$2.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$3.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$4.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$5.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$6.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$7.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$8.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove$9.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuMove.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuMove.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuSelectedItems$1.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuSelectedItems$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuSelectedItems$2.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuSelectedItems$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuSelectedItems.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuSelectedItems.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuStitchRoute$1.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuStitchRoute$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuStitchRoute$2.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuStitchRoute$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuStitchRoute$3.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuStitchRoute$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PopupMenuStitchRoute.class" afterPath="$PROJECT_DIR$/bin/gui/PopupMenuStitchRoute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PupupMenuCornerItemConstruction$1.class" afterPath="$PROJECT_DIR$/bin/gui/PupupMenuCornerItemConstruction$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PupupMenuCornerItemConstruction$2.class" afterPath="$PROJECT_DIR$/bin/gui/PupupMenuCornerItemConstruction$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PupupMenuCornerItemConstruction$3.class" afterPath="$PROJECT_DIR$/bin/gui/PupupMenuCornerItemConstruction$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/PupupMenuCornerItemConstruction.class" afterPath="$PROJECT_DIR$/bin/gui/PupupMenuCornerItemConstruction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WebStart.class" afterPath="$PROJECT_DIR$/bin/gui/WebStart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAbout.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAbout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAssignNetClass$AssignRuleTable$1.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAssignNetClass$AssignRuleTable$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAssignNetClass$AssignRuleTable.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAssignNetClass$AssignRuleTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAssignNetClass$AssignRuleTableModel.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAssignNetClass$AssignRuleTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAssignNetClass.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAssignNetClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$AgainstPreferredDirectionTraceCostFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$AgainstPreferredDirectionTraceCostFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$AgainstPreferredDirectionTraceCostKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$AgainstPreferredDirectionTraceCostKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$PlaneViaCostFieldFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$PlaneViaCostFieldFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$PlaneViaCostFieldKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$PlaneViaCostFieldKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$PreferredDirectionTraceCostFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$PreferredDirectionTraceCostFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$PreferredDirectionTraceCostKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$PreferredDirectionTraceCostKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$SpeedListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$SpeedListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$StartPassFieldFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$StartPassFieldFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$StartPassFieldKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$StartPassFieldKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$StartRipupCostFieldFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$StartRipupCostFieldFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$StartRipupCostFieldKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$StartRipupCostFieldKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$ViaCostFieldFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$ViaCostFieldFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$ViaCostFieldKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter$ViaCostFieldKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteDetailParameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$AutorouteListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$AutorouteListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$DetailListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$DetailListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$FanoutListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$FanoutListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$LayerActiveListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$LayerActiveListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$PostrouteListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$PostrouteListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$PreferredDirectionListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$PreferredDirectionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$ViasAllowedListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter$ViasAllowedListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter.class" afterPath="$PROJECT_DIR$/bin/gui/WindowAutorouteParameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix$AddClassListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix$AddClassListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix$ClearanceTableModel.class" afterPath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix$ClearanceTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix$ComboBoxListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix$ComboBoxListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix$PruneListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix$PruneListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix.class" afterPath="$PROJECT_DIR$/bin/gui/WindowClearanceMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowClearanceViolations$ViolationInfo.class" afterPath="$PROJECT_DIR$/bin/gui/WindowClearanceViolations$ViolationInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowClearanceViolations.class" afterPath="$PROJECT_DIR$/bin/gui/WindowClearanceViolations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowComponents.class" afterPath="$PROJECT_DIR$/bin/gui/WindowComponents.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$BigCursorListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$BigCursorListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$HorizontalMirrorListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$HorizontalMirrorListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$MirrorNoneListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$MirrorNoneListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$Rotation180Listener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$Rotation180Listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$Rotation270Listener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$Rotation270Listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$Rotation90Listener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$Rotation90Listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$RotationNoneListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$RotationNoneListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$SliderChangeListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$SliderChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$SmallCursorListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$SmallCursorListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$VerticalMirrorListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc$VerticalMirrorListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc.class" afterPath="$PROJECT_DIR$/bin/gui/WindowDisplayMisc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowEditVias$AddViaListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowEditVias$AddViaListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowEditVias$ColumnName.class" afterPath="$PROJECT_DIR$/bin/gui/WindowEditVias$ColumnName.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowEditVias$RemoveViaListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowEditVias$RemoveViaListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowEditVias$ViaTableModel.class" afterPath="$PROJECT_DIR$/bin/gui/WindowEditVias$ViaTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowEditVias.class" afterPath="$PROJECT_DIR$/bin/gui/WindowEditVias.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowIncompletes.class" afterPath="$PROJECT_DIR$/bin/gui/WindowIncompletes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowLayerVisibility.class" afterPath="$PROJECT_DIR$/bin/gui/WindowLayerVisibility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowLengthViolations$LengthViolation.class" afterPath="$PROJECT_DIR$/bin/gui/WindowLengthViolations$LengthViolation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowLengthViolations.class" afterPath="$PROJECT_DIR$/bin/gui/WindowLengthViolations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowManualRules$ClearanceComboBoxListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowManualRules$ClearanceComboBoxListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowManualRules$LayerComboBoxListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowManualRules$LayerComboBoxListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowManualRules$TraceWidthFieldFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowManualRules$TraceWidthFieldFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowManualRules$TraceWidthFieldKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowManualRules$TraceWidthFieldKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowManualRules$ViaRuleComboBoxListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowManualRules$ViaRuleComboBoxListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowManualRules.class" afterPath="$PROJECT_DIR$/bin/gui/WindowManualRules.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowMessage.class" afterPath="$PROJECT_DIR$/bin/gui/WindowMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$HorizontalGridFieldFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$HorizontalGridFieldFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$HorizontalGridFieldKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$HorizontalGridFieldKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$RotateButtonListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$RotateButtonListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$VerticalGridFieldFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$VerticalGridFieldFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$VerticalGridFieldKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$VerticalGridFieldKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$ZoomButtonListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowMoveParameter$ZoomButtonListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowMoveParameter.class" afterPath="$PROJECT_DIR$/bin/gui/WindowMoveParameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$AddNetClassListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$AddNetClassListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$AssignClassesListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$AssignClassesListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$ColumnName.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$ColumnName.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$ContainedNetsListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$ContainedNetsListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$FilterIncompletesListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$FilterIncompletesListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$NetClassTable$1.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$NetClassTable$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$NetClassTable.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$NetClassTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$NetClassTableModel.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$NetClassTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$RemoveNetClassListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$RemoveNetClassListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses$SelectClassesListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses$SelectClassesListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNetClasses.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNetClasses.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNets$AssignClassListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNets$AssignClassListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNets$FilterIncompletesListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNets$FilterIncompletesListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowNets.class" afterPath="$PROJECT_DIR$/bin/gui/WindowNets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectInfo$1.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectInfo$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectInfo$InfoButtonListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectInfo$InfoButtonListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectInfo.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectList$1.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectList$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectList$2.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectList$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectList$InvertListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectList$InvertListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectList$RecalculateListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectList$RecalculateListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectList$SelectListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectList$SelectListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectList$ShowListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectList$ShowListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectList.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectListWithFilter$SnapshotInfo.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectListWithFilter$SnapshotInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectListWithFilter.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectListWithFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowObjectVisibility.class" afterPath="$PROJECT_DIR$/bin/gui/WindowObjectVisibility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowPackages.class" afterPath="$PROJECT_DIR$/bin/gui/WindowPackages.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowPadstacks.class" afterPath="$PROJECT_DIR$/bin/gui/WindowPadstacks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteDetail$CompensationOffListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteDetail$CompensationOffListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteDetail$CompensationOnListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteDetail$CompensationOnListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteDetail$OutLineKeepoutListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteDetail$OutLineKeepoutListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteDetail$SliderChangeListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteDetail$SliderChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteDetail.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteDetail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$AutomaticTraceWidthListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$AutomaticTraceWidthListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$DetailListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$DetailListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$DragComponentListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$DragComponentListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$DynamicRouteListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$DynamicRouteListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$EdgeToTurnDistFieldFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$EdgeToTurnDistFieldFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$EdgeToTurnDistFieldKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$EdgeToTurnDistFieldKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$HilightObstacleListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$HilightObstacleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$IgnoreConductionListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$IgnoreConductionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$ManualTraceWidthListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$ManualTraceWidthListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$NeckDownListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$NeckDownListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$RegionWidthFieldFocusListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$RegionWidthFieldFocusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$RegionWidthFieldKeyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$RegionWidthFieldKeyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$RestrictPinExitDirectionsListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$RestrictPinExitDirectionsListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$ShoveListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$ShoveListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$SliderChangeListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$SliderChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$SnapAngle45Listener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$SnapAngle45Listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$SnapAngle90Listener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$SnapAngle90Listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$SnapAngleNoneListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$SnapAngleNoneListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$StitchRouteListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$StitchRouteListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$ViaSnapToSMDCenterListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter$ViaSnapToSMDCenterListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteParameter.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteParameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteStubs$RouteStubInfo.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteStubs$RouteStubInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowRouteStubs.class" afterPath="$PROJECT_DIR$/bin/gui/WindowRouteStubs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSelectParameter$AllVisibleListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSelectParameter$AllVisibleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSelectParameter$CurrentLayerListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSelectParameter$CurrentLayerListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSelectParameter$CurrentOnlyListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSelectParameter$CurrentOnlyListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSelectParameter$ItemSelectionListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSelectParameter$ItemSelectionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSelectParameter.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSelectParameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshot$1.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshot$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshot$AddListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshot$AddListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshot$DeleteAllListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshot$DeleteAllListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshot$DeleteListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshot$DeleteListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshot$GotoListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshot$GotoListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshot$SavedAttributes.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshot$SavedAttributes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshot$SettingsListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshot$SettingsListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshot.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshot.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$ComponentGridListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$ComponentGridListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$CurrentLayerListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$CurrentLayerListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$DisplayRegionListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$DisplayRegionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$DragComponentsEnabledListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$DragComponentsEnabledListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$InfoListFilterListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$InfoListFilterListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$InteractiveStateListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$InteractiveStateListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$LayerVisibilityListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$LayerVisibilityListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$ManualRuleSettingsListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$ManualRuleSettingsListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$ObjectColorListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$ObjectColorListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$ObjectVisibilityListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$ObjectVisibilityListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$PullTightRegionListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$PullTightRegionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$PushAndShoveEnabledListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$PushAndShoveEnabledListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$RuleSelectionListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$RuleSelectionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$SelectableItemsListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$SelectableItemsListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$SelectionLayersListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings$SelectionLayersListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings.class" afterPath="$PROJECT_DIR$/bin/gui/WindowSnapshotSettings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowUnconnectedRoute$UnconnectedRouteInfo.class" afterPath="$PROJECT_DIR$/bin/gui/WindowUnconnectedRoute$UnconnectedRouteInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowUnconnectedRoute.class" afterPath="$PROJECT_DIR$/bin/gui/WindowUnconnectedRoute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$AddPadstackListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$AddPadstackListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$AddViaRuleListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$AddViaRuleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$EditViaRuleListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$EditViaRuleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$EditViasListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$EditViasListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$PadstackInputPanel.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$PadstackInputPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$RemovePadstackListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$RemovePadstackListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$RemoveViaRuleListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$RemoveViaRuleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$ShowPadstacksListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$ShowPadstacksListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$ShowViaRuleListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$ShowViaRuleListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia$ShowViasListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia$ShowViasListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVia.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowViaRule$AppendListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowViaRule$AppendListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowViaRule$DeleteListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowViaRule$DeleteListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowViaRule$MoveDownListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowViaRule$MoveDownListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowViaRule$MoveUpListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowViaRule$MoveUpListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowViaRule.class" afterPath="$PROJECT_DIR$/bin/gui/WindowViaRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVisibility$MaxAllButtonListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVisibility$MaxAllButtonListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVisibility$MinAllButtonListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVisibility$MinAllButtonListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVisibility$SliderChangeListener.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVisibility$SliderChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/WindowVisibility.class" afterPath="$PROJECT_DIR$/bin/gui/WindowVisibility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/AutorouteSettings.class" afterPath="$PROJECT_DIR$/bin/interactive/AutorouteSettings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/BatchAutorouterThread.class" afterPath="$PROJECT_DIR$/bin/interactive/BatchAutorouterThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/BoardHandling.class" afterPath="$PROJECT_DIR$/bin/interactive/BoardHandling.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/CircleConstructionState.class" afterPath="$PROJECT_DIR$/bin/interactive/CircleConstructionState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/ClearanceViolations.class" afterPath="$PROJECT_DIR$/bin/interactive/ClearanceViolations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/CopyItemState.class" afterPath="$PROJECT_DIR$/bin/interactive/CopyItemState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/CornerItemConstructionState.class" afterPath="$PROJECT_DIR$/bin/interactive/CornerItemConstructionState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/CutoutRouteState.class" afterPath="$PROJECT_DIR$/bin/interactive/CutoutRouteState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/DragItemState.class" afterPath="$PROJECT_DIR$/bin/interactive/DragItemState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/DragMenuState.class" afterPath="$PROJECT_DIR$/bin/interactive/DragMenuState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/DragState.class" afterPath="$PROJECT_DIR$/bin/interactive/DragState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/DynamicRouteState.class" afterPath="$PROJECT_DIR$/bin/interactive/DynamicRouteState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/ExpandTestState.class" afterPath="$PROJECT_DIR$/bin/interactive/ExpandTestState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/HoleConstructionState.class" afterPath="$PROJECT_DIR$/bin/interactive/HoleConstructionState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread$AutorouteThread.class" afterPath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread$AutorouteThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread$FanoutThread.class" afterPath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread$FanoutThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread$PullTightThread.class" afterPath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread$PullTightThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread$ReadLogfileThread.class" afterPath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread$ReadLogfileThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread.class" afterPath="$PROJECT_DIR$/bin/interactive/InteractiveActionThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/InteractiveState.class" afterPath="$PROJECT_DIR$/bin/interactive/InteractiveState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/Logfile.class" afterPath="$PROJECT_DIR$/bin/interactive/Logfile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScanner.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScanner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$AddHoleScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$AddHoleScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$AssignClearanceClassScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$AssignClearanceClassScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$AssignSelectedToNewGroupScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$AssignSelectedToNewGroupScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$AssignSelectedToNewNetScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$AssignSelectedToNewNetScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$AutorouteSelectedScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$AutorouteSelectedScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CancelScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CancelScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CenterDisplayScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CenterDisplayScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$ChangeLayerScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$ChangeLayerScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$ChangePlacementSideScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$ChangePlacementSideScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CompleteScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CompleteScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CopyItemScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CopyItemScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CornerlistScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CornerlistScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CreateCircleScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CreateCircleScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CreatePolygonShapeScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CreatePolygonShapeScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CreateTileScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CreateTileScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CreateTraceScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CreateTraceScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$CutoutRouteScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$CutoutRouteScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$DeleteSelectedScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$DeleteSelectedScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$DragItemScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$DragItemScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$ExtendToWholeComponentsScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$ExtendToWholeComponentsScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$ExtendToWholeConnectedSetsScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$ExtendToWholeConnectedSetsScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$ExtendToWholeConnectionsScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$ExtendToWholeConnectionsScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$ExtendToWholeNetsScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$ExtendToWholeNetsScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$FanoutSelectedScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$FanoutSelectedScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$FixSelectedScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$FixSelectedScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$GenerateSnapshotScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$GenerateSnapshotScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$MakeSpaceScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$MakeSpaceScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$MoveItemScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$MoveItemScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$OptimizeSelectedScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$OptimizeSelectedScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$RedoScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$RedoScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$RotateScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$RotateScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SelectRegionScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SelectRegionScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetClearanceCompensationScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetClearanceCompensationScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetDragComponentsEnabledScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetDragComponentsEnabledScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetIgnoreConductionScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetIgnoreConductionScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetLayerScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetLayerScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetManualTraceClearanceClassScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetManualTraceClearanceClassScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetManualTraceHalfWidthScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetManualTraceHalfWidthScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetManualTraceWidthSelectionScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetManualTraceWidthSelectionScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetPullTightAccuracyScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetPullTightAccuracyScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetPullTightRegionWidthScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetPullTightRegionWidthScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetPushEnabledScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetPushEnabledScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetSelectOnAllLayerScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetSelectOnAllLayerScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetSelectableScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetSelectableScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetSnapAngleScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetSnapAngleScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetStitchRouteScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetStitchRouteScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetTraceHalfWidthScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetTraceHalfWidthScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetZoomWithWheelScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$SetZoomWithWheelScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$StartSelectScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$StartSelectScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$ToggleSelectScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$ToggleSelectScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$Turn90DegreeScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$Turn90DegreeScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$UndoScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$UndoScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$UnfixSelectedScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$UnfixSelectedScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope$ZoomFrameScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope$ZoomFrameScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/LogfileScope.class" afterPath="$PROJECT_DIR$/bin/interactive/LogfileScope.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/MakeSpaceState.class" afterPath="$PROJECT_DIR$/bin/interactive/MakeSpaceState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/MenuState.class" afterPath="$PROJECT_DIR$/bin/interactive/MenuState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/MoveItemState$NetItems.class" afterPath="$PROJECT_DIR$/bin/interactive/MoveItemState$NetItems.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/MoveItemState.class" afterPath="$PROJECT_DIR$/bin/interactive/MoveItemState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/NetIncompletes$Edge.class" afterPath="$PROJECT_DIR$/bin/interactive/NetIncompletes$Edge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/NetIncompletes$NetItem.class" afterPath="$PROJECT_DIR$/bin/interactive/NetIncompletes$NetItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/NetIncompletes.class" afterPath="$PROJECT_DIR$/bin/interactive/NetIncompletes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/PinSwapState.class" afterPath="$PROJECT_DIR$/bin/interactive/PinSwapState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/PolygonShapeConstructionState.class" afterPath="$PROJECT_DIR$/bin/interactive/PolygonShapeConstructionState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/RatsNest$AirLine.class" afterPath="$PROJECT_DIR$/bin/interactive/RatsNest$AirLine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/RatsNest.class" afterPath="$PROJECT_DIR$/bin/interactive/RatsNest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/Route$SwapPinInfo.class" afterPath="$PROJECT_DIR$/bin/interactive/Route$SwapPinInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/Route$TargetPoint.class" afterPath="$PROJECT_DIR$/bin/interactive/Route$TargetPoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/Route.class" afterPath="$PROJECT_DIR$/bin/interactive/Route.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/RouteMenuState.class" afterPath="$PROJECT_DIR$/bin/interactive/RouteMenuState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/RouteState.class" afterPath="$PROJECT_DIR$/bin/interactive/RouteState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/ScreenMessages.class" afterPath="$PROJECT_DIR$/bin/interactive/ScreenMessages.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/SelectItemsInRegionState.class" afterPath="$PROJECT_DIR$/bin/interactive/SelectItemsInRegionState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/SelectMenuState.class" afterPath="$PROJECT_DIR$/bin/interactive/SelectMenuState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/SelectRegionState.class" afterPath="$PROJECT_DIR$/bin/interactive/SelectRegionState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/SelectedItemState.class" afterPath="$PROJECT_DIR$/bin/interactive/SelectedItemState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/Settings.class" afterPath="$PROJECT_DIR$/bin/interactive/Settings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/SnapShot$Attributes.class" afterPath="$PROJECT_DIR$/bin/interactive/SnapShot$Attributes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/SnapShot.class" afterPath="$PROJECT_DIR$/bin/interactive/SnapShot.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/StitchRouteState.class" afterPath="$PROJECT_DIR$/bin/interactive/StitchRouteState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/TileConstructionState.class" afterPath="$PROJECT_DIR$/bin/interactive/TileConstructionState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/interactive/ZoomRegionState.class" afterPath="$PROJECT_DIR$/bin/interactive/ZoomRegionState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/BoardLibrary.class" afterPath="$PROJECT_DIR$/bin/library/BoardLibrary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/LogicalPart$PartPin.class" afterPath="$PROJECT_DIR$/bin/library/LogicalPart$PartPin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/LogicalPart.class" afterPath="$PROJECT_DIR$/bin/library/LogicalPart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/LogicalParts.class" afterPath="$PROJECT_DIR$/bin/library/LogicalParts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/Package$Keepout.class" afterPath="$PROJECT_DIR$/bin/library/Package$Keepout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/Package$Pin.class" afterPath="$PROJECT_DIR$/bin/library/Package$Pin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/Package.class" afterPath="$PROJECT_DIR$/bin/library/Package.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/Packages.class" afterPath="$PROJECT_DIR$/bin/library/Packages.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/Padstack.class" afterPath="$PROJECT_DIR$/bin/library/Padstack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/library/Padstacks.class" afterPath="$PROJECT_DIR$/bin/library/Padstacks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/BoardRules.class" afterPath="$PROJECT_DIR$/bin/rules/BoardRules.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/ClearanceMatrix$MatrixEntry.class" afterPath="$PROJECT_DIR$/bin/rules/ClearanceMatrix$MatrixEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/ClearanceMatrix$Row.class" afterPath="$PROJECT_DIR$/bin/rules/ClearanceMatrix$Row.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/ClearanceMatrix.class" afterPath="$PROJECT_DIR$/bin/rules/ClearanceMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/DefaultItemClearanceClasses$ItemClass.class" afterPath="$PROJECT_DIR$/bin/rules/DefaultItemClearanceClasses$ItemClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/DefaultItemClearanceClasses.class" afterPath="$PROJECT_DIR$/bin/rules/DefaultItemClearanceClasses.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/Net.class" afterPath="$PROJECT_DIR$/bin/rules/Net.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/NetClass.class" afterPath="$PROJECT_DIR$/bin/rules/NetClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/NetClasses.class" afterPath="$PROJECT_DIR$/bin/rules/NetClasses.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/Nets.class" afterPath="$PROJECT_DIR$/bin/rules/Nets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/ViaInfo.class" afterPath="$PROJECT_DIR$/bin/rules/ViaInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/ViaInfos.class" afterPath="$PROJECT_DIR$/bin/rules/ViaInfos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rules/ViaRule.class" afterPath="$PROJECT_DIR$/bin/rules/ViaRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/tests/Validate.class" afterPath="$PROJECT_DIR$/bin/tests/Validate.class" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="WebStart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/WebStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-834">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardFrame_de.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/resources/BoardFrame_de.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/BoardFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreeRouting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreeRouting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreeRouting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreeRouting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreeRouting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FreeRouting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainApplication">
+    <configuration default="false" name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="gui.MainApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Free Routing" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Free Routing" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.MainApplication" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da75841c-9e17-4cad-997c-6a15a2fd35ab" name="Default" comment="" />
+      <created>1504209523865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504209523865</updated>
+      <workItem from="1504209535391" duration="262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="262000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/gui/WebStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-834">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/resources/BoardFrame_de.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/BoardFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Free Routing</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
