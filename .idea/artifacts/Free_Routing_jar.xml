@@ -1,10 +1,15 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="Free Routing:jar">
+  <artifact name="Free Routing:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Free_Routing_jar</output-path>
-    <root id="archive" name="Free Routing.jar">
-      <element id="module-output" name="Free Routing" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/src/jh.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/src/jnlp.jar" path-in-jar="/" />
+    <root id="root">
+      <element id="archive" name="Free Routing.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/manifest/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="Free Routing" />
+      </element>
+      <element id="library" level="module" name="jnlp.jar" module-name="Free Routing" />
+      <element id="library" level="module" name="jh.jar" module-name="Free Routing" />
     </root>
   </artifact>
 </component>
