@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Free Routing:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Free_Routing_jar</output-path>
+    <root id="archive" name="Free Routing.jar">
+      <element id="module-output" name="Free Routing" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/jh.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/jnlp.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
